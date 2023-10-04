@@ -11,7 +11,7 @@ export class ChartjsComponent {
   public chart: any;
 
   ngOnInit(): void {
-    this.chart = new Chart("chart", {
+    this.chart = new Chart("chartjs", {
       type: 'line',
       data: {// values on X-Axis
         labels: ['1','2','3','4','5','6','7','8', ],
