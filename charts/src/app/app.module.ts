@@ -11,9 +11,9 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { ChartjsComponent } from './pages/chartjs/chartjs.component';
 import { EchartsComponent } from './pages/echarts/echarts.component';
-import { LwChartsComponent } from './pages/lw-charts/lw-charts.component';
 import { ApexComponent } from './pages/apex/apex.component';
 import {NgApexchartsModule} from "ng-apexcharts";
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,6 @@ import {NgApexchartsModule} from "ng-apexcharts";
     MenuComponent,
     ChartjsComponent,
     EchartsComponent,
-    LwChartsComponent,
     ApexComponent
   ],
   imports: [
@@ -32,7 +31,8 @@ import {NgApexchartsModule} from "ng-apexcharts";
     MatListModule,
     MatButtonModule,
     MatButtonToggleModule,
-    NgApexchartsModule
+    NgApexchartsModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

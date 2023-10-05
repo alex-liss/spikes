@@ -19,14 +19,12 @@ export class ChartjsComponent {
           {
             label: "One",
             data: ['467','576', '572', '79', '92',
-              '574', '573', '576'],
-            backgroundColor: 'blue'
+              '574', '573', '576']
           },
           {
             label: "Two",
             data: ['542', '542', '536', '327', '17',
-              '0.00', '538', '541'],
-            backgroundColor: 'limegreen'
+              '0.00', '538', '541']
           }
         ]
       },
