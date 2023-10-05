@@ -13,6 +13,7 @@ import { ChartjsComponent } from './pages/chartjs/chartjs.component';
 import { EchartsComponent } from './pages/echarts/echarts.component';
 import { LwChartsComponent } from './pages/lw-charts/lw-charts.component';
 import { ApexComponent } from './pages/apex/apex.component';
+import {NgApexchartsModule} from "ng-apexcharts";
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ApexComponent } from './pages/apex/apex.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    NgApexchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
