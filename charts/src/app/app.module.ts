@@ -15,6 +15,7 @@ import { Ng2chartsComponent } from './pages/ng2charts/ng2charts.component';
 import { ApexComponent } from './pages/apex/apex.component';
 import {NgApexchartsModule} from "ng-apexcharts";
 import { NgChartsModule } from 'ng2-charts';
+import {provideClientHydration} from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { NgChartsModule } from 'ng2-charts';
     NgApexchartsModule,
     NgChartsModule
   ],
-  providers: [],
+  providers: [provideClientHydration()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
